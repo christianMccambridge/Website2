@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(43, 41, 173, 0.733);
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  h2 {
+    color: rgb(20, 20, 20);
+    text-align: center;
+   
+  }
+  p {
+    font-family: verdana;
+    font-size: 16px;
+   padding-left: 2%;
+   padding-right: 2%;
+   text-align: justify;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #243374 ;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f24d681;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #cecbe9;
+  }
+
+  .hello{
+    float: right;
+   padding-left: 3%;
+
+  }
+  
+  .hello3{
+    float: right;
+    margin-left: 1%;
+  }
+
+  .hello2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .grid-container > div {
+    text-align: center;
+    font-size: 150%;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
